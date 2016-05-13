@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IntervalsAndEvents>
+  <Intervals>
+    <Interval Name="Авария_в_ТП1">
+      <Open>
+        <EqOp Value="eq">
+          <Attribute Value="Трубопровод_1.Состояние_трубопровода" />
+          <String Value="Авария" />
+        </EqOp>
+      </Open>
+      <Close>
+        <EqOp Value="eq">
+          <Attribute Value="Трубопровод_1.Состояние_трубопровода" />
+          <String Value="Исправен" />
+        </EqOp>
+      </Close>
+    </Interval>
+  </Intervals>
+  <Events>
+    <Event Name="Повреждение_КШУ16_бол_0">
+      <Formula>
+        <EqOp Value="gt">
+          <Attribute Value="Каширское_шоссе_у16.Размер_повреждения_дороги_от_НС" />
+          <Number Value="0" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Повреждение_КШУ16_бол_3">
+      <Formula>
+        <EqOp Value="gt">
+          <Attribute Value="Каширское_шоссе_у16.Размер_повреждения_дороги_от_НС" />
+          <Number Value="3" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Повреждение_КШУ16_бол_12">
+      <Formula>
+        <EqOp Value="gt">
+          <Attribute Value="Каширское_шоссе_у16.Размер_повреждения_дороги_от_НС" />
+          <Number Value="12" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Повреждение_КШУ16_менр_3">
+      <Formula>
+        <EqOp Value="le">
+          <Attribute Value="Каширское_шоссе_у16.Размер_повреждения_дороги_от_НС" />
+          <Number Value="3" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Повреждение_КШУ16_менр_12">
+      <Formula>
+        <EqOp Value="le">
+          <Attribute Value="Каширское_шоссе_у16.Размер_повреждения_дороги_от_НС" />
+          <Number Value="12" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Повреждение_КШУ16_менр_18">
+      <Formula>
+        <EqOp Value="le">
+          <Attribute Value="Каширское_шоссе_у16.Размер_повреждения_дороги_от_НС" />
+          <Number Value="18" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ13_болр_7">
+      <Formula>
+        <EqOp Value="ge">
+          <Attribute Value="Каширское_шоссе_у13.Балл_пробок_левой_проезжей_части" />
+          <Number Value="7" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ13_менр_10">
+      <Formula>
+        <EqOp Value="le">
+          <Attribute Value="Каширское_шоссе_у13.Балл_пробок_левой_проезжей_части" />
+          <Number Value="10" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ13_болр_4">
+      <Formula>
+        <EqOp Value="ge">
+          <Attribute Value="Каширское_шоссе_у13.Балл_пробок_левой_проезжей_части" />
+          <Number Value="4" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ13_мен_7">
+      <Formula>
+        <EqOp Value="lt">
+          <Attribute Value="Каширское_шоссе_у13.Балл_пробок_левой_проезжей_части" />
+          <Number Value="7" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ13_болр_0">
+      <Formula>
+        <EqOp Value="ge">
+          <Attribute Value="Каширское_шоссе_у13.Балл_пробок_левой_проезжей_части" />
+          <Number Value="0" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ13_мен_4">
+      <Formula>
+        <EqOp Value="lt">
+          <Attribute Value="Каширское_шоссе_у13.Балл_пробок_левой_проезжей_части" />
+          <Number Value="4" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ14_болр_7">
+      <Formula>
+        <EqOp Value="ge">
+          <Attribute Value="Каширское_шоссе_у14.Балл_пробок_левой_проезжей_части" />
+          <Number Value="7" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ14_болр_4">
+      <Formula>
+        <EqOp Value="ge">
+          <Attribute Value="Каширское_шоссе_у14.Балл_пробок_левой_проезжей_части" />
+          <Number Value="4" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ14_мен_7">
+      <Formula>
+        <EqOp Value="lt">
+          <Attribute Value="Каширское_шоссе_у14.Балл_пробок_левой_проезжей_части" />
+          <Number Value="7" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ14_болр_0">
+      <Formula>
+        <EqOp Value="ge">
+          <Attribute Value="Каширское_шоссе_у14.Балл_пробок_левой_проезжей_части" />
+          <Number Value="0" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ14_мен_4">
+      <Formula>
+        <EqOp Value="lt">
+          <Attribute Value="Каширское_шоссе_у14.Балл_пробок_левой_проезжей_части" />
+          <Number Value="4" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ15_болр_7">
+      <Formula>
+        <EqOp Value="ge">
+          <Attribute Value="Каширское_шоссе_у15.Балл_пробок_левой_проезжей_части" />
+          <Number Value="7" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ15_менр_10">
+      <Formula>
+        <EqOp Value="le">
+          <Attribute Value="Каширское_шоссе_у15.Балл_пробок_левой_проезжей_части" />
+          <Number Value="10" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ15_болр_4">
+      <Formula>
+        <EqOp Value="ge">
+          <Attribute Value="Каширское_шоссе_у15.Балл_пробок_левой_проезжей_части" />
+          <Number Value="4" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ15_мен_7">
+      <Formula>
+        <EqOp Value="lt">
+          <Attribute Value="Каширское_шоссе_у15.Балл_пробок_левой_проезжей_части" />
+          <Number Value="7" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ15_болр_0">
+      <Formula>
+        <EqOp Value="ge">
+          <Attribute Value="Каширское_шоссе_у15.Балл_пробок_левой_проезжей_части" />
+          <Number Value="0" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Загруженность_в_ЛКШУ15_мен_4">
+      <Formula>
+        <EqOp Value="lt">
+          <Attribute Value="Каширское_шоссе_у15.Балл_пробок_левой_проезжей_части" />
+          <Number Value="4" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="X_нештатной_трубы_бол_100">
+      <Formula>
+        <EqOp Value="gt">
+          <Attribute Value="Трубопровод_1.X_нештатной_трубы" />
+          <Number Value="100" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="X_нештатной_трубы_менр_150">
+      <Formula>
+        <EqOp Value="le">
+          <Attribute Value="Трубопровод_1.X_нештатной_трубы" />
+          <Number Value="150" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Y_нештатной_трубы_бол_50">
+      <Formula>
+        <EqOp Value="gt">
+          <Attribute Value="Трубопровод_1.Y_нештатной_трубы" />
+          <Number Value="50" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Бригады_МЧС1_свободны">
+      <Formula>
+        <EqOp Value="eq">
+          <Attribute Value="Отдел_МЧС_1.Занятность_бригад" />
+          <String Value="Свободны" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="Бригады_МЧС1_заняты">
+      <Formula>
+        <EqOp Value="eq">
+          <Attribute Value="Отдел_МЧС_1.Занятность_бригад" />
+          <String Value="Заняты" />
+        </EqOp>
+      </Formula>
+    </Event>
+    <Event Name="пуку">
+      <Formula>
+        <EqOp Value="уур">
+          <Attribute Value="ур" />
+          <Number Value="уррр" />
+        </EqOp>
+      </Formula>
+    </Event>
+  </Events>
+</IntervalsAndEvents>

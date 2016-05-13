@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<IntervalsAndEvents>
+  <Intervals />
+  <Events>
+    <Event Name="Авария">
+      <Formula>
+        <EqOp Value="eq">
+          <Attribute Value="Значение счетчика" />
+          <Number Value="10" />
+        </EqOp>
+      </Formula>
+    </Event>
+  </Events>
+</IntervalsAndEvents>
